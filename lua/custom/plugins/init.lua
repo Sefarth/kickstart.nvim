@@ -52,7 +52,7 @@ return {
   {
     'tpope/vim-fugitive',
     config = function()
-      vim.keymap.set('n', '<leader>gs', vim.cmd.Git, { desc = 'Fugitive: Git Status' })
+      vim.keymap.set('n', '<leader>gs', vim.cmd.Git, { desc = 'Fugitive: [g]it [s]tatus' })
 
       local fugitive_keymaps_group = vim.api.nvim_create_augroup('Fugitive_Keymaps', {})
 
