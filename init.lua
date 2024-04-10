@@ -556,6 +556,8 @@ require('lazy').setup({
         -- tsserver = {},
         --
 
+        ocamllsp = {},
+
         lua_ls = {
           -- cmd = {...},
           -- filetypes = { ...},
