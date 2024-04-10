@@ -68,11 +68,11 @@ return {
 
           vim.keymap.set('n', '<leader>p', function()
             vim.cmd.Git 'push'
-          end, { buffer = curburr, remap = false, desc = 'Fugitive: Git Push' })
+          end, { buffer = curburr, remap = false, desc = 'Fugitive: Git [p]ush' })
 
           vim.keymap.set('n', '<leader>P', function()
             vim.cmd.Git { 'pull', '--rebase' }
-          end, { buffer = curburr, remap = false, desc = 'Fugitive: Git Push' })
+          end, { buffer = curburr, remap = false, desc = 'Fugitive: Git [P]ull' })
         end,
       })
     end,
