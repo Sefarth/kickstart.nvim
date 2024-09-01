@@ -854,7 +854,7 @@ require('lazy').setup({
         },
         symbols = {
           scroll_view = '░',
-          encode = MiniMap.gen_encode_symbols.dot '4x2',
+          encode = map.gen_encode_symbols.dot '4x2',
         },
       }
       map.open()
